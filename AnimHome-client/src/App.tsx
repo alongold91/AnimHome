@@ -1,17 +1,12 @@
-import { Autocomplete, AutocompleteItem } from "@nextui-org/react";
-import "./App.css";
+import { Autocomplete, AutocompleteItem } from '@nextui-org/react';
+import './App.css';
+import { Button } from './shadcn-components/ui/button';
 
 function App() {
   return (
-    <>
-      <Autocomplete classNames={{
-       popoverContent: 'bg-background-primary'
-      }} label="Select an animal" className="max-w-xs">
-        <AutocompleteItem key={"key"} value={"shlomi"}>
-          dori
-        </AutocompleteItem>
-      </Autocomplete>
-    </>
+    <div className='bg-background-primary'>
+    <Button className='bg-background-primary hover:bg-text-light hover:text-background-secondary' variant='outline'>Click me</Button>
+    </div>
   );
 }
 
