@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* *, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+} */
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
